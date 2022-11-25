@@ -9,6 +9,8 @@ edition = "2021"
 native-windows-gui = "1.0.12"
 native-windows-derive = "1.0.3" # Optional. Only if the derive macro is used.
 rocket = { git = "https://github.com/SergioBenitez/Rocket", rev = "162fafa0f1b5d9045bf342356671859f0f21c4cc" }
+walkdir = "2.3.2"
+pathdiff = "0.2.1"
 
 [build-dependencies]
 embed-manifest = "1.3.1"
